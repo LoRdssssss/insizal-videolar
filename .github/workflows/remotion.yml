@@ -1,0 +1,46 @@
+name: Kapsül video (Remotion)
+
+# remotion/ klasörü varsa kapsülleri Remotion ile de üretir. Açık depo: Actions ücretsiz.
+on:
+  push:
+    branches: [main]
+    paths: ["kapsuller/*.json", "remotion/**"]
+  pull_request:
+    branches: [main]
+    paths: ["kapsuller/*.json", "remotion/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: remotion-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    if: ${{ hashFiles('remotion/package.json') != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Kurulum
+        working-directory: remotion
+        run: |
+          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+          npx remotion browser ensure
+      - name: Çevir
+        working-directory: remotion
+        run: |
+          mkdir -p ../cikti
+          for f in ../kapsuller/*.json; do
+            npx remotion render src/index.ts Kapsul "../cikti/$(basename "$f" .json).mp4" --props="$f" --codec=h264
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: remotion-videolari
+          path: cikti/*.mp4
+          retention-days: 90
