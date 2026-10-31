@@ -1,0 +1,92 @@
+{
+  "baslik": "İmplantta primer stabilite neden önemli?",
+  "brans": "İmplantoloji",
+  "durum": "TASLAK",
+  "kaynaklar": [
+    "Benic GI, Mir-Mari J, Hämmerle CHF. Loading protocols for single-implant crowns: a systematic review and meta-analysis. Int J Oral Maxillofac Implants. 2014;29 Suppl:222–238. DOI:10.11607/jomi.2014suppl.g4.1. PMID:24660200.",
+    "Gallucci GO, Hamilton A, Zhou W, Buser D, Chen ST. Implant placement and loading protocols in partially edentulous patients: a systematic review. Clin Oral Implants Res. 2018;29(Suppl 16):106–134. DOI:10.1111/clr.13276.",
+    "Darriba I, Seidel A, Moreno F, et al. Influence of low insertion torque values on survival rate of immediately loaded dental implants: a systematic review and meta-analysis. J Clin Periodontol. 2023;50(2):158–169. DOI:10.1111/jcpe.13733. PMID:36217696."
+  ],
+  "sahneler": [
+    {
+      "tur": "soru",
+      "sure": 5,
+      "ust": "İmplant",
+      "satirlar": [
+        "İlk tutunma",
+        "neden önemli?"
+      ]
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Primer stabilite",
+      "satirlar": [
+        "Mekanik",
+        "tutunma."
+      ],
+      "aciklama": "Yükleme planında implantın hareketini sınırlamak önemlidir.",
+      "kaynak": "Gallucci ve ark., Clin Oral Implants Res 2018"
+    },
+    {
+      "tur": "metin",
+      "sure": 8,
+      "ust": "Tek kron çalışmalarında",
+      "satirlar": [
+        "Tork ve ISQ",
+        "birlikte."
+      ],
+      "aciklama": "Bunlar çalışma seçim ölçütleri; evrensel eşik değil.",
+      "cipler": [
+        "20–45 Ncm",
+        "ISQ 60–65"
+      ],
+      "kaynak": "Benic ve ark., IJOMI 2014 · dahil edilme ölçütleri"
+    },
+    {
+      "tur": "cubuk",
+      "sure": 9,
+      "ust": "Hemen yükleme · meta-analiz",
+      "baslik": "Ortalama implant sağkalımı",
+      "cubuklar": [
+        {
+          "etiket": "≤35 Ncm",
+          "deger": 96,
+          "birim": "96%",
+          "renk": "mint",
+          "sonuc": "Düşük tork"
+        },
+        {
+          "etiket": ">35 Ncm",
+          "deger": 92,
+          "birim": "92%",
+          "renk": "warn",
+          "sonuc": "Yüksek tork"
+        }
+      ],
+      "vurgu": "Fark istatistiksel olarak anlamlı değil.",
+      "kaynak": "Darriba ve ark., J Clin Periodontol 2023 · 7 çalışma"
+    },
+    {
+      "tur": "liste",
+      "sure": 8,
+      "baslik": "Hemen yükleme kararı",
+      "maddeler": [
+        "Tork ve ISQ klinik bağlamda yorumlanır.",
+        "Kemik ve implant koşulları değerlendirilir.",
+        "! Tek eşik herkes için geçerli değildir."
+      ],
+      "kaynak": "Benic 2014; Gallucci 2018; Darriba 2023"
+    },
+    {
+      "tur": "not",
+      "sure": 5,
+      "ust": "Klinik not",
+      "satirlar": [
+        "Tek sayı",
+        "karar verdirmez."
+      ],
+      "kaynak": "Benic 2014; Darriba 2023"
+    }
+  ]
+}
