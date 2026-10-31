@@ -14,7 +14,7 @@ const C = {bg:"#0d1f1b",ink:"#f0f5f2",mint:"#7ed6b4",mute:"#96aaa3",warn:"#ffc46
 const titleFont = '"Bricolage Grotesque", "Arial", sans-serif';
 const bodyFont = '"Instrument Sans", "Arial", sans-serif';
 const text = (size:number,color=C.ink,weight=600):React.CSSProperties => ({
-  fontFamily:bodyFont,fontSize:size,color,fontWeight,lineHeight:1.18,overflowWrap:"anywhere"
+  fontFamily:bodyFont,fontSize:size,color,fontWeight:weight,lineHeight:1.18,overflowWrap:"anywhere"
 });
 const heading = (size:number,color=C.ink):React.CSSProperties => ({...text(size,color,700),fontFamily:titleFont,letterSpacing:-1.5});
 const clamp = (v:number) => Math.max(0,Math.min(1,v));
