@@ -1,0 +1,76 @@
+{
+  "baslik": "Kompozit katmanı kaç mm olmalı?",
+  "brans": "Restoratif diş tedavisi",
+  "durum": "TASLAK",
+  "kaynaklar": [
+    "Watts DC. Light-curing dental resin-based composites: How it works and how you can make it work. Front Dent Med. 2023;4:1108316. doi:10.3389/fdmed.2023.1108316. PMID:39916906. (derleme)",
+    "Diab RA, Yap AU, Gonzalez MAG, Yahya NA. Impact of light-curing distance on the effectiveness of cure of bulk-fill resin-based composites. Saudi Dent J. 2021;33(8):1184-1189. doi:10.1016/j.sdentj.2021.01.003. PMID:34916770. (in vitro)"
+  ],
+  "sahneler": [
+    {
+      "tur": "soru",
+      "sure": 5,
+      "ust": "Kompozit",
+      "satirlar": [
+        "Katman kalınlığı",
+        "kaç mm olmalı?"
+      ],
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
+    },
+    {
+      "tur": "metin",
+      "sure": 8,
+      "ust": "Geleneksel kompozit",
+      "satirlar": [
+        "Genel yaklaşım:",
+        "2 mm katman"
+      ],
+      "aciklama": "Derinde ışık azalır; polimerizasyon yetersiz kalabilir.",
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
+    },
+    {
+      "tur": "metin",
+      "sure": 8,
+      "ust": "Bulk-fill",
+      "satirlar": [
+        "Uygun ürünlerde",
+        "4 mm'ye kadar"
+      ],
+      "aciklama": "Derinlik ve ışınlama koşulları materyale bağlıdır.",
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
+    },
+    {
+      "tur": "metin",
+      "sure": 8,
+      "ust": "Işıkla sertleşme",
+      "satirlar": [
+        "Uzaklık artarsa",
+        "kür azalabilir."
+      ],
+      "aciklama": "Süreyi kısaltma; materyal ve cihaz talimatını izle.",
+      "kaynak": "Diab ve ark., Saudi Dent J 2021 · in vitro · PMID:34916770; Watts 2023"
+    },
+    {
+      "tur": "liste",
+      "sure": 9,
+      "baslik": "Klinik özet",
+      "maddeler": [
+        "Gelenekselde genellikle 2 mm katman uygula.",
+        "Bulk-fill için ürün talimatını kontrol et.",
+        "Işık ucunu uygun konumda tut.",
+        "! Yeterli ışınlama süresini doğrula."
+      ],
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
+    },
+    {
+      "tur": "not",
+      "sure": 5,
+      "ust": "Not",
+      "satirlar": [
+        "4 mm her ürün",
+        "için geçerli değil"
+      ],
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
+    }
+  ]
+}
