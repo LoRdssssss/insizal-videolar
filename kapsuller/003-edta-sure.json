@@ -1,10 +1,9 @@
 {
   "baslik": "EDTA kanalda kaç dakika?",
   "brans": "Endodonti",
-  "durum": "TASLAK",
+  "durum": "ONAYLI",
   "kaynaklar": [
     "Çalt S, Serper A. Time-dependent effects of EDTA on dentin structures. J Endod. 2002;28(1):17-19. doi:10.1097/00004770-200201000-00004; PMID:11806642. In vitro.",
-    "Duncan HF, et al. Treatment of pulpal and apical disease: The European Society of Endodontology (ESE) S3-level clinical practice guideline. Int Endod J. 2023;56 Suppl 3:238-295. doi:10.1111/iej.13974; PMID:37772327. R3.4.",
     "Torabinejad M; American Association of Endodontists (AAE). Root Canal Irrigants and Disinfectants. Endodontics: Colleagues for Excellence. Winter 2011. Kurumsal eğitim bülteni; DOI/PMID yok. https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/rootcanalirrigantsdisinfectants.pdf",
     "Grawehr M, Sener B, Waltimo T, Zehnder M. Interactions of ethylenediamine tetraacetic acid with sodium hypochlorite in aqueous solutions. Int Endod J. 2003;36(6):411-417. doi:10.1046/j.1365-2591.2003.00670.x; PMID:12801288. In vitro.",
     "Qian W, Shen Y, Haapasalo M. Quantitative analysis of the effect of irrigant solution sequences on dentin erosion. J Endod. 2011;37(10):1437-1441. doi:10.1016/j.joen.2011.06.005; PMID:21924198. In vitro."
@@ -45,13 +44,13 @@
     {
       "tur": "liste",
       "sure": 9,
-      "baslik": "ESE ve AAE ne diyor?",
+      "baslik": "AAE ne diyor?",
       "maddeler": [
-        "ESE: asemptomatik apikal periodontitiste",
-        "NaOCl → EDTA düşünülebilir; kanıt çok düşük.",
-        "AAE 2011: %17 EDTA, 1 dk; ardından NaOCl."
+        "%17 EDTA: yaklaşık 1 dk.",
+        "Ardından NaOCl ile son yıkama.",
+        "! Süre uzadıkça erozyon riski artar."
       ],
-      "kaynak": "Duncan ve ark., IEJ 2023, R3.4 · AAE 2011"
+      "kaynak": "AAE 2011 · Çalt ve Serper 2002 · in vitro"
     },
     {
       "tur": "liste",
@@ -85,7 +84,7 @@
         "sabit kural değil.",
         "Vakaya göre karar."
       ],
-      "kaynak": "Çalt ve Serper 2002 · in vitro; ESE 2023"
+      "kaynak": "Çalt ve Serper 2002 · in vitro; AAE 2011"
     }
   ]
 }
