@@ -25,7 +25,7 @@ const appear = (frame:number,fps:number,delay=0):React.CSSProperties => {
   return {opacity:clamp(value),transform:`translateY(${(1-value)*36}px)`};
 };
 const enter = (frame:number, duration:number, index:number, last:number) => {
-  const cross=6;
+  const cross=8;
   const fadeIn=index===0?1:clamp(frame/cross);
   const fadeOut=index===last?1:clamp((duration-frame)/cross);
   return fadeIn*fadeOut;
