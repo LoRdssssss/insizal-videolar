@@ -1,7 +1,7 @@
 {
   "baslik": "Rubber dam: gerçekten fark eder mi?",
   "brans": "Restoratif diş tedavisi",
-  "durum": "TASLAK",
+  "durum": "ONAYLI",
   "kaynaklar": [
     "Wang Y, Li C, Yuan H, Wong MCM, Zou J, Shi Z, Zhou X. Rubber dam isolation for restorative treatment in dental patients. Cochrane Database Syst Rev. 2016;9:CD009858. DOI:10.1002/14651858.CD009858.pub2. PMID:27648846. Sayısal sahne: Analysis 1.1, Ma 2012; klinik çalışma, her grupta 81 katılımcı; 6 ayda 74 ve 62 restorasyon yerinde; kanıt çok düşük kesinlikte.",
     "Miao C, Yang X, Wong MCM, Zou J, Zhou X, Li C, Wang Y. Rubber dam isolation for restorative treatment in dental patients. Cochrane Database Syst Rev. 2021;5:CD009858. DOI:10.1002/14651858.CD009858.pub3. 2016 derlemesinin güncellemesi: çürüksüz servikal lezyonların direkt kompozit restorasyonlarında 6 ay için düşük kesinlikli kanıt; daha uzun izlemde sonuçlar çok belirsiz.",
@@ -91,8 +91,8 @@
       "sure": 5,
       "ust": "Not:",
       "satirlar": [
-        "Tek çalışma",
-        "genel kural değil."
+        "Restorasyon kanıtı",
+        "henüz zayıf."
       ],
       "kaynak": "Wang 2016; Miao 2021 · Cochrane"
     }
