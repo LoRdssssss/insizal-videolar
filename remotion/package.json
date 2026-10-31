@@ -1,0 +1,20 @@
+{
+  "name": "insizal-remotion",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render": "remotion render src/index.ts Kapsul out.mp4 --props=../kapsuller/001-naocl.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.365",
+    "@remotion/transitions": "4.0.365",
+    "@remotion/fonts": "4.0.365",
+    "remotion": "4.0.365",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3",
+    "@types/react": "19.0.8"
+  }
+}
