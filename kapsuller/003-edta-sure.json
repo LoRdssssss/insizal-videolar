@@ -1,0 +1,91 @@
+{
+  "baslik": "EDTA kanalda kaç dakika?",
+  "brans": "Endodonti",
+  "durum": "TASLAK",
+  "kaynaklar": [
+    "Çalt S, Serper A. Time-dependent effects of EDTA on dentin structures. J Endod. 2002;28(1):17-19. doi:10.1097/00004770-200201000-00004; PMID:11806642. In vitro.",
+    "Duncan HF, et al. Treatment of pulpal and apical disease: The European Society of Endodontology (ESE) S3-level clinical practice guideline. Int Endod J. 2023;56 Suppl 3:238-295. doi:10.1111/iej.13974; PMID:37772327. R3.4.",
+    "Torabinejad M; American Association of Endodontists (AAE). Root Canal Irrigants and Disinfectants. Endodontics: Colleagues for Excellence. Winter 2011. Kurumsal eğitim bülteni; DOI/PMID yok. https://www.aae.org/specialty/wp-content/uploads/sites/2/2017/07/rootcanalirrigantsdisinfectants.pdf",
+    "Grawehr M, Sener B, Waltimo T, Zehnder M. Interactions of ethylenediamine tetraacetic acid with sodium hypochlorite in aqueous solutions. Int Endod J. 2003;36(6):411-417. doi:10.1046/j.1365-2591.2003.00670.x; PMID:12801288. In vitro.",
+    "Qian W, Shen Y, Haapasalo M. Quantitative analysis of the effect of irrigant solution sequences on dentin erosion. J Endod. 2011;37(10):1437-1441. doi:10.1016/j.joen.2011.06.005; PMID:21924198. In vitro."
+  ],
+  "sahneler": [
+    {
+      "tur": "soru",
+      "sure": 4,
+      "ust": "%17 EDTA",
+      "satirlar": [
+        "Kanalda kaç",
+        "dakika kalmalı?"
+      ],
+      "kaynak": "Çalt ve Serper, J Endod 2002 · in vitro"
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Smear tabakası",
+      "satirlar": [
+        "1 dakika",
+        "etkili bulundu."
+      ],
+      "aciklama": "Çekilmiş dişlerde; ardından NaOCl uygulandı.",
+      "kaynak": "Çalt ve Serper, J Endod 2002 · in vitro"
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Süre uzarsa",
+      "satirlar": [
+        "10 dakikada",
+        "belirgin dentin",
+        "erozyonu görüldü."
+      ],
+      "kaynak": "Çalt ve Serper, J Endod 2002 · in vitro"
+    },
+    {
+      "tur": "liste",
+      "sure": 9,
+      "baslik": "ESE ve AAE ne diyor?",
+      "maddeler": [
+        "ESE: asemptomatik apikal periodontitiste",
+        "NaOCl → EDTA düşünülebilir; kanıt çok düşük.",
+        "AAE 2011: %17 EDTA, 1 dk; ardından NaOCl."
+      ],
+      "kaynak": "Duncan ve ark., IEJ 2023, R3.4 · AAE 2011"
+    },
+    {
+      "tur": "liste",
+      "sure": 9,
+      "baslik": "Sıra ve son yıkama",
+      "maddeler": [
+        "NaOCl ile irrigasyon → EDTA → son yıkama",
+        "AAE: son yıkamada NaOCl tarif eder.",
+        "! EDTA ile NaOCl'yi karıştırma: klor azalır.",
+        "! EDTA sonrası NaOCl erozyonu artırabilir."
+      ],
+      "kaynak": "AAE 2011 · Grawehr 2003; Qian 2011 · in vitro"
+    },
+    {
+      "tur": "liste",
+      "sure": 7,
+      "baslik": "Klinik özet",
+      "maddeler": [
+        "EDTA: smear tabakasının inorganik kısmı için.",
+        "Teması gereksiz uzatma; sıra da önemlidir.",
+        "! NaOCl'yi apikalden taşırma."
+      ],
+      "kaynak": "AAE 2011 · Çalt ve Serper 2002 · in vitro"
+    },
+    {
+      "tur": "not",
+      "sure": 5,
+      "ust": "Not:",
+      "satirlar": [
+        "1 dk: her vakaya",
+        "sabit kural değil.",
+        "Vakaya göre karar."
+      ],
+      "kaynak": "Çalt ve Serper 2002 · in vitro; ESE 2023"
+    }
+  ]
+}
