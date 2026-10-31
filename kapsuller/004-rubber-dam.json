@@ -1,0 +1,100 @@
+{
+  "baslik": "Rubber dam: gerçekten fark eder mi?",
+  "brans": "Restoratif diş tedavisi",
+  "durum": "ONAYLI",
+  "kaynaklar": [
+    "Wang Y, Li C, Yuan H, Wong MCM, Zou J, Shi Z, Zhou X. Rubber dam isolation for restorative treatment in dental patients. Cochrane Database Syst Rev. 2016;9:CD009858. DOI:10.1002/14651858.CD009858.pub2. PMID:27648846. Sayısal sahne: Analysis 1.1, Ma 2012; klinik çalışma, her grupta 81 katılımcı; 6 ayda 74 ve 62 restorasyon yerinde; kanıt çok düşük kesinlikte.",
+    "Miao C, Yang X, Wong MCM, Zou J, Zhou X, Li C, Wang Y. Rubber dam isolation for restorative treatment in dental patients. Cochrane Database Syst Rev. 2021;5:CD009858. DOI:10.1002/14651858.CD009858.pub3. 2016 derlemesinin güncellemesi: çürüksüz servikal lezyonların direkt kompozit restorasyonlarında 6 ay için düşük kesinlikli kanıt; daha uzun izlemde sonuçlar çok belirsiz.",
+    "Ahmad IA. Rubber dam usage for endodontic treatment: a review. Int Endod J. 2009;42(11):963-972. DOI:10.1111/j.1365-2591.2009.01623.x. PMID:19825034.",
+    "American Association of Endodontists, Practice Affairs Committee. Dental Dams: AAE Position Statement. 2024 (Mart revizyonu, Nisan onayı). Kurumsal kılavuz; dergi/DOI/PMID yok. https://www.aae.org/specialty/wp-content/uploads/sites/2/2024/06/DentalDams_PositionStatement_updated.pdf"
+  ],
+  "sahneler": [
+    {
+      "tur": "soru",
+      "sure": 4.5,
+      "ust": "Rubber dam",
+      "satirlar": [
+        "Gerçekten",
+        "fark eder mi?"
+      ]
+    },
+    {
+      "tur": "metin",
+      "sure": 6.5,
+      "ust": "İzolasyon",
+      "satirlar": [
+        "Tükürüğe karşı",
+        "bir bariyer."
+      ],
+      "aciklama": "Tedavi alanının kontaminasyonunu azaltır.",
+      "kaynak": "AAE, Dental Dams 2024 · kılavuz"
+    },
+    {
+      "tur": "cubuk",
+      "sure": 9,
+      "ust": "6 ay · tek klinik çalışma",
+      "baslik": "Çürüksüz servikal kompozit: yerinde kalan",
+      "cubuklar": [
+        {
+          "etiket": "Rubber dam",
+          "deger": 74,
+          "birim": "74 / 81",
+          "renk": "mint",
+          "sonuc": "yerinde kalan"
+        },
+        {
+          "etiket": "Pamuk rulo",
+          "deger": 62,
+          "birim": "62 / 81",
+          "renk": "warn",
+          "sonuc": "yerinde kalan"
+        }
+      ],
+      "vurgu": "Bu tek çalışmanın kanıt kesinliği çok düşük.",
+      "kaynak": "Ma 2012 · Wang ve ark., Cochrane 2016, Analiz 1.1"
+    },
+    {
+      "tur": "metin",
+      "sure": 8,
+      "ust": "Cochrane · 2021 güncellemesi",
+      "satirlar": [
+        "Kısa vadede",
+        "fayda olabilir."
+      ],
+      "aciklama": "6 ay: düşük kesinlik; uzun vadede kanıt çok belirsiz.",
+      "kaynak": "Miao ve ark., Cochrane 2021 · servikal kompozit"
+    },
+    {
+      "tur": "liste",
+      "sure": 8,
+      "baslik": "Endodontide hasta güvenliği",
+      "maddeler": [
+        "Aletlerin yutulma riskini azaltır.",
+        "Aletlerin aspirasyon riskini azaltır.",
+        "Tükürük kaynaklı kontaminasyonu azaltır."
+      ],
+      "kaynak": "Ahmad, Int Endod J 2009; AAE 2024"
+    },
+    {
+      "tur": "metin",
+      "sure": 6,
+      "ust": "AAE yaklaşımı",
+      "satirlar": [
+        "Kanal tedavisinde",
+        "bakım standardı."
+      ],
+      "aciklama": "Cerrahi olmayan endodontik tedavinin temel parçasıdır.",
+      "kaynak": "AAE, Dental Dams 2024 · kılavuz"
+    },
+    {
+      "tur": "not",
+      "sure": 5,
+      "ust": "Not:",
+      "satirlar": [
+        "Restorasyon kanıtı",
+        "henüz zayıf."
+      ],
+      "kaynak": "Wang 2016; Miao 2021 · Cochrane"
+    }
+  ]
+}
