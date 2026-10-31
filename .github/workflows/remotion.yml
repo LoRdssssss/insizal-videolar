@@ -19,20 +19,25 @@ concurrency:
 
 jobs:
   render:
-    if: ${{ hashFiles('remotion/package.json') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      - name: remotion/ var mı?
+        id: var
+        run: if [ -f remotion/package.json ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-node@v4
+        if: steps.var.outputs.ok == '1'
         with:
           node-version: 22
       - name: Kurulum
+        if: steps.var.outputs.ok == '1'
         working-directory: remotion
         run: |
           if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
           npx remotion browser ensure
       - name: Çevir
+        if: steps.var.outputs.ok == '1'
         working-directory: remotion
         run: |
           mkdir -p ../cikti
@@ -40,6 +45,7 @@ jobs:
             npx remotion render src/index.ts Kapsul "../cikti/$(basename "$f" .json).mp4" --props="$f" --codec=h264
           done
       - uses: actions/upload-artifact@v4
+        if: steps.var.outputs.ok == '1'
         with:
           name: remotion-videolari
           path: cikti/*.mp4
