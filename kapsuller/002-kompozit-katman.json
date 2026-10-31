@@ -3,10 +3,8 @@
   "brans": "Restoratif diş tedavisi",
   "durum": "TASLAK",
   "kaynaklar": [
-    "Rueggeberg FA, Caughman WF, Curtis JW Jr. Effect of light intensity and exposure duration on cure of resin composite. Oper Dent. 1994;19(1):26-32. PMID:8183730. (in vitro)",
-    "Ilie N, Kessler A, Durner J. Influence of various irradiation processes on the mechanical properties and polymerisation kinetics of bulk-fill resin based composites. J Dent. 2013;41(8):695-702. doi:10.1016/j.jdent.2013.05.008. (in vitro)",
-    "Price RB, Shortall AC, Palin WM. Contemporary issues in light curing. Oper Dent. 2014;39(1):4-14. doi:10.2341/13-067-LIT. (derleme)",
-    "Flury S, Hayoz S, Peutzfeldt A, Husler J, Lussi A. Depth of cure of resin composites: is the ISO 4049 method suitable for bulk fill materials? Dent Mater. 2012;28(5):521-528. doi:10.1016/j.dental.2012.02.002. (in vitro)"
+    "Watts DC. Light-curing dental resin-based composites: How it works and how you can make it work. Front Dent Med. 2023;4:1108316. doi:10.3389/fdmed.2023.1108316. PMID:39916906. (derleme)",
+    "Diab RA, Yap AU, Gonzalez MAG, Yahya NA. Impact of light-curing distance on the effectiveness of cure of bulk-fill resin-based composites. Saudi Dent J. 2021;33(8):1184-1189. doi:10.1016/j.sdentj.2021.01.003. PMID:34916770. (in vitro)"
   ],
   "sahneler": [
     {
@@ -17,18 +15,18 @@
         "Katman kalınlığı",
         "kaç mm olmalı?"
       ],
-      "kaynak": "Rueggeberg ve ark., Oper Dent 1994 · in vitro"
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
     },
     {
       "tur": "metin",
       "sure": 8,
       "ust": "Geleneksel kompozit",
       "satirlar": [
-        "En fazla 2 mm",
-        "katman uygula."
+        "Genel yaklaşım:",
+        "2 mm katman"
       ],
       "aciklama": "Derinde ışık azalır; polimerizasyon yetersiz kalabilir.",
-      "kaynak": "Rueggeberg ve ark., Oper Dent 1994 · in vitro"
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
     },
     {
       "tur": "metin",
@@ -39,30 +37,30 @@
         "4 mm'ye kadar"
       ],
       "aciklama": "Derinlik ve ışınlama koşulları materyale bağlıdır.",
-      "kaynak": "Ilie ve ark., J Dent 2013 · in vitro"
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
     },
     {
       "tur": "metin",
       "sure": 8,
       "ust": "Işıkla sertleşme",
       "satirlar": [
-        "Mesafe artarsa",
-        "etki değişir."
+        "Uzaklık artarsa",
+        "kür azalabilir."
       ],
-      "aciklama": "Işınlama süresi, uzaklık ve cihaz gücü önemlidir.",
-      "kaynak": "Ilie ve ark., J Dent 2013 · in vitro; Price ve ark., Oper Dent 2014"
+      "aciklama": "Süreyi kısaltma; materyal ve cihaz talimatını izle.",
+      "kaynak": "Diab ve ark., Saudi Dent J 2021 · in vitro · PMID:34916770; Watts 2023"
     },
     {
       "tur": "liste",
       "sure": 9,
       "baslik": "Klinik özet",
       "maddeler": [
-        "Gelenekselde 2 mm sınırını gözet.",
+        "Gelenekselde genellikle 2 mm katman uygula.",
         "Bulk-fill için ürün talimatını kontrol et.",
         "Işık ucunu uygun konumda tut.",
         "! Yeterli ışınlama süresini doğrula."
       ],
-      "kaynak": "Rueggeberg 1994; Ilie 2013 · in vitro; Price 2014"
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
     },
     {
       "tur": "not",
@@ -72,7 +70,7 @@
         "4 mm her ürün",
         "için geçerli değil"
       ],
-      "kaynak": "Flury ve ark., Dent Mater 2012 · in vitro"
+      "kaynak": "Watts, Front Dent Med 2023 · doi:10.3389/fdmed.2023.1108316"
     }
   ]
 }
