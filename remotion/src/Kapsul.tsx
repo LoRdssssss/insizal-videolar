@@ -1,6 +1,6 @@
 import React from "react";
 import {DentalIcon, iconForBranch} from "./ikonlar";
-import {AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from "remotion";
+import {AbsoluteFill, Audio, getStaticFiles, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from "remotion";
 
 type Bar = {etiket: string; deger: number; birim?: string; renk?: "mint" | "red" | "warn"; sonuc?: string};
 type Scene = {
@@ -117,6 +117,6 @@ export const Kapsul:React.FC<Scenario> = (spec) => {
         {scene.kaynak&&<div style={{position:"absolute",left:80,right:80,bottom:315,...text(30,C.mute,500),...appear(local,fps,1)}}>{scene.kaynak}</div>}
       </AbsoluteFill>;
     })}
-    {spec.muzik && /^[a-zA-Z0-9_-]+\.mp3$/.test(spec.muzik) && <Audio src={staticFile(`muzik/${spec.muzik}`)} volume={(f)=>0.12*Math.min(1,f/fps,Math.max(0,(Math.round(total*fps)-f)/fps))}/>}
+    {spec.muzik && /^[a-zA-Z0-9_-]+\.mp3$/.test(spec.muzik) && getStaticFiles().some((file)=>file.name===`muzik/${spec.muzik}`) && <Audio src={staticFile(`muzik/${spec.muzik}`)} volume={(f)=>0.12*Math.min(1,f/fps,Math.max(0,(Math.round(total*fps)-f)/fps))}/>}
   </AbsoluteFill>;
 };
