@@ -1,0 +1,29 @@
+{
+  "baslik": "NaOCl kanalda kaç dakika kalmalı?",
+  "brans": "Endodonti",
+  "durum": "ONAYLI",
+  "kaynaklar": [
+    "Retamozo B, et al. Minimum contact time and concentration of sodium hypochlorite required to eliminate Enterococcus faecalis. J Endod. 2010;36(3):520-523. doi:10.1016/j.joen.2009.12.005",
+    "Zou L, et al. Penetration of sodium hypochlorite into dentin. J Endod. 2010;36(5):793-796."
+  ],
+  "sahneler": [
+    { "tur": "soru", "sure": 4.5, "ust": "NaOCl", "satirlar": ["kanalda kaç", "dakika kalmalı?"] },
+    { "tur": "metin", "sure": 6.5, "ust": "Kısa cevap:", "satirlar": ["Kılavuzlar", "sabit bir dakika", "vermez."], "vurgu": true,
+      "aciklama": "Süreyi belirleyen: konsantrasyon, yenileme sıklığı, aktivasyon ve ısı.", "cipler": ["%", "yenile", "aktive et", "°C"] },
+    { "tur": "cubuk", "sure": 8, "ust": "Laboratuvar verisi", "baslik": "E. faecalis bulaşmış dentin",
+      "cubuklar": [
+        { "etiket": "%1,3", "deger": 40, "birim": "40 dk", "renk": "red", "sonuc": "yetersiz" },
+        { "etiket": "%2,5", "deger": 40, "birim": "40 dk", "renk": "red", "sonuc": "yetersiz" },
+        { "etiket": "%5,25", "deger": 40, "birim": "40 dk", "renk": "mint", "sonuc": "temizledi" }],
+      "vurgu": "%5,25 NaOCl ancak 40 dakikada tamamen temizledi.", "kaynak": "Retamozo ve ark., J Endod 2010 · in vitro, sığır dentini" },
+    { "tur": "cubuk", "sure": 7.5, "ust": "Dentine ne kadar girer?", "baslik": "NaOCl penetrasyonu (µm)",
+      "cubuklar": [
+        { "etiket": "2 dk", "deger": 77, "birim": "~77 µm", "renk": "mint", "sonuc": "%1 · oda ısısı" },
+        { "etiket": "20 dk", "deger": 300, "birim": "~300 µm", "renk": "mint", "sonuc": "%6 · 45°C" },
+        { "etiket": "Bakteri", "deger": 500, "birim": "300–500 µm", "renk": "red", "sonuc": "tübüllerdeki derinlik" }],
+      "kaynak": "Zou ve ark., J Endod 2010 · in vitro" },
+    { "tur": "liste", "sure": 7.5, "baslik": "Klinikte", "maddeler": [
+      "Tek seferlik bekletme değil: sık yenile", "Aktive et (ultrasonik / sonik)", "Toplam temas süresini uzat", "! Apikalden taşırma: iğneyi kilitleme"] },
+    { "tur": "not", "sure": 4.5, "ust": "Not:", "satirlar": ["40 dk bir laboratuvar", "bulgusu, kural değil."] }
+  ]
+}

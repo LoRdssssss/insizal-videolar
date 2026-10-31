@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><title>kapsül</title>
+<style>
+@font-face{font-family:Bricolage;src:url(../fontlar/bricolage-grotesque-tr-wght-1.001.woff2) format("woff2");font-weight:200 800}
+@font-face{font-family:Instrument;src:url(../fontlar/instrument-sans-tr-wght-1.000.woff2) format("woff2");font-weight:400 700}
+html,body{margin:0;background:#000}canvas{display:block;width:min(100vw,56.25vh);height:auto;margin:0 auto}
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="kapsul.js"></script>
+<script>
+// Tarayıcıda önizleme: oynatici.html?k=001-naocl  (render.mjs ise window.__seek ile kare kare çizer)
+const g = document.getElementById("c").getContext("2d");
+window.__hazir = (async () => {
+  const k = new URLSearchParams(location.search).get("k");
+  const spec = window.__spec || await (await fetch(`../kapsuller/${k}.json`)).json();
+  await Promise.all([document.fonts.load('700 40px Bricolage'), document.fonts.load('500 40px Instrument'), document.fonts.load('600 40px Instrument')]);
+  window.__spec = spec;
+  window.__seek = (t) => kapsul.draw(g, spec, t);
+  if (!navigator.webdriver) { const t0 = performance.now(); const loop = () => { const t = ((performance.now() - t0) / 1000) % kapsul.total(spec); kapsul.draw(g, spec, t); requestAnimationFrame(loop); }; loop(); }
+  return kapsul.total(spec);
+})();
+</script></body></html>
