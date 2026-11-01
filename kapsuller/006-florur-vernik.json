@@ -1,0 +1,101 @@
+{
+  "baslik": "Florür vernik: kaç ayda bir?",
+  "brans": "Pedodonti",
+  "durum": "TASLAK",
+  "kaynaklar": [
+    "Marinho VCC, Worthington HV, Walsh T, Clarkson JE. Fluoride varnishes for preventing dental caries in children and adolescents. Cochrane Database Syst Rev. 2013;(7):CD002279. doi:10.1002/14651858.CD002279.pub2. PMID:23846772. https://pubmed.ncbi.nlm.nih.gov/23846772/",
+    "Weyant RJ, Tracy SL, Anselmo TT, et al. Topical fluoride for caries prevention: executive summary of the updated clinical recommendations and supporting systematic review. J Am Dent Assoc. 2013;144(11):1279-1291. doi:10.14219/jada.archive.2013.0057. PMID:24177407. https://pubmed.ncbi.nlm.nih.gov/24177407/ ; ADA chairside guide: https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/ada_evidence-based_topical_fluoride_chairside_guide.pdf",
+    "American Academy of Pediatric Dentistry. Fluoride therapy. The Reference Manual of Pediatric Dentistry. Chicago, IL: AAPD; 2025:372-378. Latest revision 2023. Kurumsal kılavuz; DOI/PMID yok. https://www.aapd.org/media/Policies_Guidelines/BP_FluorideTherapy.pdf"
+  ],
+  "sahneler": [
+    {
+      "tur": "soru",
+      "sure": 4,
+      "ust": "Florür vernik",
+      "satirlar": [
+        "kaç ayda bir?"
+      ]
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Yüksek çürük riski",
+      "satirlar": [
+        "3–6 ayda bir",
+        "%5 NaF vernik"
+      ],
+      "vurgu": true,
+      "aciklama": "ADA: Aralığı hastanın riskine göre belirle.",
+      "kaynak": "Weyant ve ark., JADA 2013 · ADA kılavuzu"
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Konsantrasyonu ayır",
+      "satirlar": [
+        "%5 NaF",
+        "%2,26 florürdür."
+      ],
+      "vurgu": true,
+      "aciklama": "AAPD: Riskli çocukta en az 6 ayda bir uygulama.",
+      "kaynak": "AAPD, Fluoride therapy · 2023 revizyonu"
+    },
+    {
+      "tur": "cubuk",
+      "sure": 9,
+      "ust": "Cochrane · çocuk ve ergenler",
+      "baslik": "Çürük yüzeyi artışında göreli azalma",
+      "cubuklar": [
+        {
+          "etiket": "Daimi diş",
+          "deger": 43,
+          "birim": "%43",
+          "renk": "mint",
+          "sonuc": "%95 GA: %30–57"
+        },
+        {
+          "etiket": "Süt dişi",
+          "deger": 37,
+          "birim": "%37",
+          "renk": "mint",
+          "sonuc": "%95 GA: %24–51"
+        }
+      ],
+      "vurgu": "Vernik / plasebo veya uygulama yok karşılaştırması.",
+      "kaynak": "Marinho ve ark., Cochrane 2013 · klinik meta-analiz"
+    },
+    {
+      "tur": "metin",
+      "sure": 7,
+      "ust": "Bu oranlar ne demek?",
+      "satirlar": [
+        "Yüzey artışı,",
+        "hasta riski değil."
+      ],
+      "aciklama": "Orta kalite kanıt; çalışmalar arası farklılık var.",
+      "kaynak": "Marinho ve ark., Cochrane 2013"
+    },
+    {
+      "tur": "liste",
+      "sure": 8,
+      "baslik": "Klinik plan",
+      "maddeler": [
+        "Çürük riskini her kontrolde yeniden değerlendir.",
+        "Aralığı hastanın gereksinimine göre düzenle.",
+        "Florürlü macunla fırçalamayı sürdür.",
+        "! Bu yüzdeler 3 ay ile 6 ayı karşılaştırmaz."
+      ],
+      "kaynak": "ADA 2013 · AAPD 2023 · Marinho ve ark. 2013"
+    },
+    {
+      "tur": "not",
+      "sure": 6,
+      "ust": "Not:",
+      "satirlar": [
+        "Tek takvim yok,",
+        "risk temelli plan."
+      ],
+      "kaynak": "ADA 2013 · AAPD 2023"
+    }
+  ]
+}
