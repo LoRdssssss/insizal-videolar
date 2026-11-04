@@ -47,7 +47,7 @@ const SceneView:React.FC<{scene:Scene;frame:number;fps:number;brans:string}> = (
     {s.vurgu&&<div style={{height:8,width:interpolate(frame,[fps*.7,fps*1.5],[0,420],{extrapolateLeft:"clamp",extrapolateRight:"clamp"}),background:C.mint,borderRadius:6,marginTop:16}}/>}
     {s.aciklama&&<div style={{...text(45,C.mute),marginTop:64,...appear(frame,fps,1),...wrap}}>{s.aciklama}</div>}
     <div style={{display:"flex",gap:12,flexWrap:"wrap",marginTop:64}}>
-      {(s.cipler??[]).map((chip,i)=><div key={i} style={{...text(33,C.mint),background:C.card,borderRadius:20,padding:"22px 26px",...appear(frame,fps,1.4+i*.15),transform:`scale(${spring({frame:Math.max(0,frame-fps*(1.4+i*.15)),fps,config:{damping:11}})})`}}>{chip}</div>)}
+      {(s.cipler??[]).map((chip,i)=><div key={i} style={{...text(33,C.bg),background:C.mint,borderRadius:20,padding:"22px 26px",...appear(frame,fps,1.4+i*.15),transform:`scale(${spring({frame:Math.max(0,frame-fps*(1.4+i*.15)),fps,config:{damping:11}})})`}}>{chip}</div>)}
     </div>
   </div>;
   if(s.tur==="cubuk"){
@@ -78,7 +78,7 @@ const SceneView:React.FC<{scene:Scene;frame:number;fps:number;brans:string}> = (
     {(s.maddeler??[]).map((item,i)=>{
       const warning=item.startsWith("!");
       return <div key={i} style={{display:"flex",alignItems:"flex-start",gap:35,marginBottom:75,...appear(frame,fps,.45+i*.38),transform:`translateX(${(1-clamp((frame-fps*(.45+i*.38))/fps))*-50}px)`}}>
-        <div style={{width:72,height:72,flexShrink:0,display:"grid",placeItems:"center",color:warning?C.warn:C.mint}}>{warning?<span style={{...heading(46,C.warn)}}>!</span>:<DentalIcon name="CheckIcon" size={65} color={C.mint}/>}</div>
+        <div style={{width:72,height:72,flexShrink:0,display:"grid",placeItems:"center",background:warning?C.warn:undefined,borderRadius:warning?"50%":undefined,color:warning?C.bg:C.mint}}>{warning?<span style={{...heading(46,C.bg)}}>!</span>:<DentalIcon name="CheckIcon" size={65} color={C.mint}/>}</div>
         <div style={{...text(50),paddingTop:7,...wrap}}>{warning?item.slice(1).trim():item}</div>
       </div>;
     })}
