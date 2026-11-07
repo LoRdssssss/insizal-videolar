@@ -1,7 +1,7 @@
 {
   "baslik": "İmplantta primer stabilite neden önemli?",
   "brans": "İmplantoloji",
-  "durum": "TASLAK",
+  "durum": "ONAYLI",
   "kaynaklar": [
     "Benic GI, Mir-Mari J, Hämmerle CHF. Loading protocols for single-implant crowns: a systematic review and meta-analysis. Int J Oral Maxillofac Implants. 2014;29 Suppl:222–238. DOI:10.11607/jomi.2014suppl.g4.1. PMID:24660200.",
     "Gallucci GO, Hamilton A, Zhou W, Buser D, Chen ST. Implant placement and loading protocols in partially edentulous patients: a systematic review. Clin Oral Implants Res. 2018;29(Suppl 16):106–134. DOI:10.1111/clr.13276.",
@@ -47,7 +47,7 @@
       "tur": "cubuk",
       "sure": 9,
       "ust": "Hemen yükleme · meta-analiz",
-      "baslik": "Ortalama implant sağkalımı",
+      "baslik": "Ortalama sağkalım · ort. 24 ay takip",
       "cubuklar": [
         {
           "etiket": "≤35 Ncm",
@@ -61,11 +61,11 @@
           "deger": 92,
           "birim": "92%",
           "renk": "warn",
-          "sonuc": "Yüksek tork"
+          "sonuc": "Orta-yüksek tork"
         }
       ],
       "vurgu": "Fark istatistiksel olarak anlamlı değil.",
-      "kaynak": "Darriba ve ark., J Clin Periodontol 2023 · 7 çalışma"
+      "kaynak": "Darriba ve ark., J Clin Periodontol 2023 · 7 çalışma, ort. 24 ay"
     },
     {
       "tur": "liste",
