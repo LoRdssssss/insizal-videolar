@@ -52,14 +52,14 @@
         {
           "etiket": "≤35 Ncm",
           "deger": 96,
-          "birim": "96%",
+          "birim": "%96",
           "renk": "mint",
           "sonuc": "Düşük tork"
         },
         {
           "etiket": ">35 Ncm",
           "deger": 92,
-          "birim": "92%",
+          "birim": "%92",
           "renk": "warn",
           "sonuc": "Orta-yüksek tork"
         }
