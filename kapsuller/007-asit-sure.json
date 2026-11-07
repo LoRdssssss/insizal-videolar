@@ -1,11 +1,11 @@
 {
   "baslik": "Asitle pürüzlendirme: minede kaç saniye?",
   "brans": "Restoratif",
-  "durum": "TASLAK",
+  "durum": "ONAYLI",
   "kaynaklar": [
     "Lim ZE, Duncan HF, Moorthy A, McReynolds D. Minimally invasive selective caries removal: a clinical guide. Br Dent J. 2023;234:233-240. doi:10.1038/s41415-023-5515-4. https://www.nature.com/articles/s41415-023-5515-4 . Klinik rehber/olgu; 37% fosforik asitle mine 30 sn, dentin 15 sn protokol örneği; evrensel süre önerisi değildir.",
-    "Sato T, Takagaki T, Hatayama T, Nikaido T, Tagami J. Update on Enamel Bonding Strategies. Front Dent Med. 2021;2:666379. doi:10.3389/fdmed.2021.666379. https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.666379/full . Derleme; %30–40 fosforik asit, mine için yaygın 15–30 sn protokolleri, total-etch/seçici mine ayrımı ve aşırı dentin demineralizasyonu.",
-    "Agrelli A, Voigt MV, Clavijo VGR, et al. Dental Adhesion Protocol: A Clinically Oriented Literature Review with Practical Guidelines. Dent J (Basel). 2026;14(3):189. doi:10.3390/dj14030189. PMID:41892797. https://pmc.ncbi.nlm.nih.gov/articles/PMC13026029/ . Anlatısal derleme; %30–40 fosforik asit, sisteme özgü protokoller; genel üretici talimatının yerine geçmez."
+    "Sato T, Takagaki T, Hatayama T, Nikaido T, Tagami J. Update on Enamel Bonding Strategies. Front Dent Med. 2021;2:666379. doi:10.3389/fdmed.2021.666379. https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.666379/full . Derleme; %30–40 fosforik asit, mine için yaygın 15–30 sn protokolleri, total-etch/seçici mine ayrımı; aşırı asitlenen dentinde kollajen tabakası tam infiltre olmayabilir.",
+    "Agrelli A, Voigt MV, Clavijo VGR, et al. Dental Adhesion Protocol: A Clinically Oriented Literature Review with Practical Guidelines. Dent J (Basel). 2026;14(3):189. doi:10.3390/dj14030189. PMID:41892797. https://pmc.ncbi.nlm.nih.gov/articles/PMC13026029/ . Anlatısal derleme; %30–40 fosforik asit, adeziv sisteme özgü doğru protokol vurgusu."
   ],
   "sahneler": [
     {
@@ -25,7 +25,7 @@
         "yaygın bir aralık."
       ],
       "vurgu": true,
-      "aciklama": "Süre, yüzeye ve adeziv sisteme göre değişir.",
+      "aciklama": "Süre, kullanılan adeziv sisteme göre değişebilir.",
       "kaynak": "Sato ve ark., Front Dent Med 2021 · derleme"
     },
     {
@@ -57,11 +57,11 @@
       "sure": 8,
       "ust": "Dentinde süreyi uzatmak",
       "satirlar": [
-        "Daha derin",
-        "demineralizasyon",
-        "risk yaratabilir."
+        "Süreyi uzatmak",
+        "bağ dayanımının",
+        "ömrünü azaltabilir."
       ],
-      "aciklama": "Rezin, açığa çıkan kollajenin tümüne ulaşamayabilir.",
+      "aciklama": "Adeziv, açığa çıkan kollajenin tümüne ulaşamayabilir.",
       "kaynak": "Sato ve ark. 2021 · Lim ve ark. 2023"
     },
     {
@@ -71,7 +71,7 @@
       "maddeler": [
         "Total-etch: fosforik asit mine ve dentine uygulanır.",
         "Seçici mine: fosforik asit yalnız mineye uygulanır.",
-        "Dentin, seçici yaklaşımda self-etch ile işlenir.",
+        "Dentin, seçici yaklaşımda self-etch/üniversal adezivle işlenir.",
         "! Mine süresini dentine otomatik olarak aktarma."
       ],
       "kaynak": "Sato ve ark., Front Dent Med 2021 · derleme"
@@ -81,11 +81,11 @@
       "sure": 7,
       "ust": "Not:",
       "satirlar": [
-        "Süre ve protokol",
-        "üretici talimatına",
-        "bağlıdır."
+        "Protokol,",
+        "kullanılan adeziv",
+        "sisteme göre değişir."
       ],
-      "kaynak": "Sato ve ark. 2021 · Agrelli ve ark. 2026"
+      "kaynak": "Lim ve ark. 2023 · Agrelli ve ark. 2026"
     }
   ]
 }
